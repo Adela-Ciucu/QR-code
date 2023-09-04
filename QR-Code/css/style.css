@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-html,body {
-    font-family:'Outfit', sans-serif;
+body {
+    font-family: 'Outfit', sans-serif;
     line-height: 1.9em;
     background: hsl(212, 45%, 89%);
 }
@@ -15,47 +15,45 @@ html,body {
     margin: auto;
     text-align: center;
     background: hsl(0, 0%, 100%);
-    
-}
-
-#box {
-    float: center;
     width: 400px;
     height: 600px;
-}
-
-#box {
-    margin-top: 120px;
-    border-radius: 10px;
-}
-
-.clr {
-    clear: both;
+    margin-top: 20px;
+    border-radius: 20px;
 }
 
 .container {
-    max-width: 1440px;
-    overflow: hidden;
-    padding:  20px;
-    margin: 10px;
-    }
+    padding: 20px;
+}
 
-   .container .info-image img {
-    border-radius: 10px;
+.container .info-image {
     padding: 5px;
-    width: 350px;
-    height: 350px;
-    }
-       
-    
-    .info-container {
-        padding-bottom: 20px;
-    }
+    margin-bottom: 5px;
+}
 
-    .info-container, .info-container2 {
-        font-size: 15px;  
-    }
+.container .info-image img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.info-container,
+.info-container2 {
+    font-size: 15px;
+}
+
+.info-container {
+    padding-bottom: 20px;
+    color: hsl(218, 44%, 22%);
+}
+
+.info-container .text-primary {
+    font-weight: 700;
+}
 
 .info-container2 {
+    /* padding: 0 10px; */
     color: hsl(220, 15%, 55%);
+}
+
+.info-container2 .text-secondery {
+    font-weight: 400;
 }
